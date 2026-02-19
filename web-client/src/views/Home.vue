@@ -1436,8 +1436,8 @@ const scrollToTop = () => {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 11px 36px 11px 16px;
+  gap: 8px;
+  padding: 11px 16px;
   min-width: 110px;
   border-radius: var(--radius-lg);
   border: 1.5px solid var(--color-gray-200);
@@ -1560,8 +1560,8 @@ const scrollToTop = () => {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 11px 36px 11px 16px;
+  gap: 8px;
+  padding: 11px 16px;
   min-width: 180px;
   border-radius: var(--radius-lg);
   border: 1.5px solid var(--color-gray-200);
@@ -1939,8 +1939,8 @@ const scrollToTop = () => {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  padding: 10px 14px 10px 16px;
+  gap: 8px;
+  padding: 10px 16px;
   min-width: 190px;
   max-width: 260px;
   border-radius: var(--radius-lg);

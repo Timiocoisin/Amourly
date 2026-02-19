@@ -1325,7 +1325,7 @@ const scrollToTop = () => {
   position: absolute;
   bottom: 32px;
   right: calc((100% - 1400px) / 2 + 40px - 120px);
-  z-index: 20;
+  z-index: 1300; // 高于右侧侧边栏及其气泡，保证注册弹窗不被遮挡
   width: 400px;
   animation: slideInRight 0.8s cubic-bezier(0.16, 1, 0.3, 1);
   overflow: visible;

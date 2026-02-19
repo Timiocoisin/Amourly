@@ -983,7 +983,7 @@ const handleSubmit = () => {
     0 6px 20px -10px rgba(148, 27, 89, 0.35);
   border: 1px solid rgba(255, 172, 203, 0.7);
   padding: 18px 22px 16px;
-  z-index: 1000;
+  z-index: 2000; // 高于右侧侧边栏及其气泡
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   
@@ -1237,7 +1237,7 @@ const handleSubmit = () => {
     0 4px 16px -8px rgba(255, 107, 157, 0.35);
   border: 1px solid rgba(255, 107, 157, 0.25);
   padding: 14px 22px 18px 18px;
-  z-index: 1000;
+  z-index: 2000; // 高于右侧侧边栏及其气泡
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   overflow: visible;
@@ -1495,7 +1495,7 @@ const handleSubmit = () => {
     0 4px 16px -8px rgba(255, 107, 157, 0.35);
   border: 1px solid rgba(255, 107, 157, 0.25);
   padding: 14px 22px 18px 18px;
-  z-index: 1000;
+  z-index: 2000; // 高于右侧侧边栏及其气泡
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   overflow: visible;
